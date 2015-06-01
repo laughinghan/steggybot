@@ -5,7 +5,7 @@ class Ping
   include Cinch::Plugin
 
   @help_hash = {
-    :groups => "Usage: !groups",
+    :allgroups => "Usage: !allgroups",
     :members => "Usage: !members group",
     :ping => 'Usage: !ping group',
     :addping => "Usage: !addping group name",
